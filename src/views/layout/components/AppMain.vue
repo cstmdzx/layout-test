@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section id='page-wrap'>
        <transition name="fade" mode="out-in">
            <router-view></router-view>
            <h1>appmain</h1>

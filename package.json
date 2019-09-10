@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
     "vue": "^2.6.10",
+    "vue-burger-menu": "^2.0.2",
+    "vue-hamburger-button": "^1.0.0",
     "vue-router": "^3.1.3"
   },
   "devDependencies": {

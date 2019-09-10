@@ -1,15 +1,22 @@
 <template>
-    <div>
-        
-    </div>
+  <el-menu mode="horizontal">
+    <Push isOpen='true' noOverlay>
+      <router-link to="./fxd">首页</router-link>
+
+    </Push>
+    <h1>nav test</h1>
+  </el-menu>
 </template>
 
 <script>
+import { Push } from "vue-burger-menu";
+
 export default {
-    
-}
+  name: "NavBar",
+  components: {
+    Push
+  }
+};
 </script>
 
-<style lang="stylus" scoped>
-
-</style>
+<style lang="stylus" scoped></style>
