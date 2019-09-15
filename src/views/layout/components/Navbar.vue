@@ -1,15 +1,13 @@
 <template>
-  <el-menu mode="horizontal">
-    <Push isOpen='true' noOverlay>
-      <router-link to="./fxd">首页</router-link>
+  <el-menu class="navbar" mode="horizontal">
+    
 
-    </Push>
-    <h1>nav test</h1>
+
   </el-menu>
 </template>
 
 <script>
-import { Push } from "vue-burger-menu";
+
 
 export default {
   name: "NavBar",
