@@ -2,9 +2,7 @@
   <div>
     <NavBar></NavBar>
 
-    <AppMain>
-      <h1>layout test</h1>
-    </AppMain>
+    <AppMain></AppMain>
   </div>
 </template>
 
