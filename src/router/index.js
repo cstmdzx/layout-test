@@ -12,7 +12,7 @@ export const constantRouterMap = [
     {
         path:'',
         component: Layout,
-        meta:{title:'首页'},
+        meta:{title:'首页', breadcrumb:'首页'},
         redirect: '/s1',
         children:[
             {
@@ -30,7 +30,7 @@ export const constantRouterMap = [
         path: '/fxd',
         component: Layout,
         redirect:'/fxd/s1',
-        meta:{title:'风险点'},
+        meta:{title:'风险点', breadcrumb:'fxd'},
         children:[
             {
                 path:'s1',
