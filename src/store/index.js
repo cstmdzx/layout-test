@@ -38,7 +38,7 @@ const store = new Vuex.Store({
             commit('CLOSE_SIDEBAR',withoutAnimation)
         },
         ToggleDevice:({ commit }, device)=>{
-            commit('TOGGLE_DEVICE',device)
+            commit('TOGGLE_DEVICE', device)
         }
     },
     getters:{
