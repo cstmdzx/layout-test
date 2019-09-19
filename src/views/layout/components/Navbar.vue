@@ -7,6 +7,9 @@
     <el-menu class="navbar" mode="horizontal">
       <hamburger class="hamburger-container" :toggleClick="toggleSideBar" :isactive="sidebar.opened"></hamburger>
       <breadcrumb></breadcrumb>
+      <el-dropdown class="avatar-container" trigger="click">
+
+      </el-dropdown>
     </el-menu>
   </section>
 </template>
