@@ -4,7 +4,7 @@
       @click="toggleClick"
       class="hamburger"
       :class="{'is-active': isactive}"
-      style
+      style=""
       viewBox="0 0 1024 1024"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@
 export default {
   name: "hamburger",
   props: {
-    'is-active': {
+    isactive: {
       type: Boolean,
       default: false
     },
@@ -53,8 +53,12 @@ export default {
   transform: rotate(90deg);
   transition: 0.38s;
   transform-origin: center;
+  border-radius: 0px !important;
+  outline: none !important;
 }
 .hamburger.is-active {
   transform: rotate(0deg);
+  border-radius: 0px !important;
+  outline: none !important;
 }
 </style>
