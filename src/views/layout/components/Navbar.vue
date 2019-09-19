@@ -73,12 +73,10 @@ export default {
       cursor: pointer;
       margin-top: 5px;
       position: relative;
-      outline: none !important;
       .user-avatar {
         width: 40px;
         height: 40px;
-        border-radius: 10px;
-        
+        border-radius: 10px;      
       }
       .el-icon-caret-bottom {
         position: absolute;
