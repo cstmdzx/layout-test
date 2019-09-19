@@ -8,6 +8,18 @@
       <hamburger class="hamburger-container" :toggleClick="toggleSideBar" :isactive="sidebar.opened"></hamburger>
       <breadcrumb></breadcrumb>
       <el-dropdown class="avatar-container" trigger="click">
+        <div class="avatar-wrapper">
+          <img class="user-avatar" :src="null">
+          <i class="el-icon-caret-bottom"></i>
+        </div>
+        <el-dropdown-menu class="user-dropdown" slot="dropdown">
+          <el-dropdown-item>
+            <router-link class="inlineBlock" to="/">首页</router-link>
+          </el-dropdown-item>
+          <el-dropdown-item divided>
+            <span @click="function(){}" style="display:block;">退出</span>
+          </el-dropdown-item>
+        </el-dropdown-menu>
 
       </el-dropdown>
     </el-menu>
@@ -52,14 +64,28 @@ export default {
       outline: none !important;
     }
   }
-  .app-breadcrumb.el-breadcrumb {
+  .avatar-container {
+    height: 50px;
     display: inline-block;
-    font-size: 14px;
-    line-height: 50px;
-    margin-left: 10px;
-    .no-redirect {
-      color: #97a8be;
-      cursor: text;
+    position: absolute;
+    right: 35px;
+    .avatar-wrapper {
+      cursor: pointer;
+      margin-top: 5px;
+      position: relative;
+      outline: none !important;
+      .user-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        
+      }
+      .el-icon-caret-bottom {
+        position: absolute;
+        right: -20px;
+        top: 25px;
+        font-size: 12px;
+      }
     }
   }
 </style>
