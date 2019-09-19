@@ -1,10 +1,7 @@
 <template>
   <div>
     <NavBar></NavBar>
-
-    <AppMain>
-      <h1>layout test</h1>
-    </AppMain>
+    <AppMain id='page-wrap'></AppMain>
   </div>
 </template>
 

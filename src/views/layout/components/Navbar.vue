@@ -4,7 +4,6 @@
       <router-link to="./fxd">首页</router-link>
 
     </Push>
-    <h1>nav test</h1>
   </el-menu>
 </template>
 

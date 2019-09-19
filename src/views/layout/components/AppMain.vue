@@ -1,8 +1,8 @@
 <template>
-   <section id='page-wrap'>
+   <section>
        <transition name="fade" mode="out-in">
            <router-view></router-view>
-           <h1>appmain</h1>
+           <h1 style="text-align:center">appmain</h1>
        </transition>
    </section>
 </template>
