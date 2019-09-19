@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar></NavBar>
-    <AppMain id='page-wrap'></AppMain>
+    <AppMain></AppMain>
   </div>
 </template>
 
