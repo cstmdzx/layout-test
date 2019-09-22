@@ -17,7 +17,7 @@
             <router-link class="inlineBlock" to="/">首页</router-link>
           </el-dropdown-item>
           <el-dropdown-item divided>
-            <span @click="function(){}" style="display:block;">退出</span>
+            <span @click="logTuichu" style="display:block;">退出</span>
           </el-dropdown-item>
         </el-dropdown-menu>
 
@@ -46,6 +46,9 @@ export default {
   methods:{
     toggleSideBar(){
       this.$store.dispatch('ToggleSideBar')
+    },
+    logTuichu(){
+      console.log("退出")
     }
   }
 };

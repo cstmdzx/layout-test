@@ -1,9 +1,13 @@
 <template>
-    <div class="menu-wrapper">
-        <template>
-            <div >
-                
-            </div>
-        </template>
-    </div>
+  
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
